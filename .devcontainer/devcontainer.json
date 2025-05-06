@@ -1,0 +1,9 @@
+{
+  //Name this cinfiguration
+"name": "Codespace for Skills!",
+  //Using the base code space image 
+"image": "mcr.microsoft.com/vscode/devcontainers/universal:latest",
+
+  "remoteUser" : "codespace",
+  "overrideCommand": false
+}
