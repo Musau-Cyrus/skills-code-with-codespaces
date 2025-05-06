@@ -5,5 +5,14 @@
 "image": "mcr.microsoft.com/vscode/devcontainers/universal:latest",
 
   "remoteUser" : "codespace",
-  "overrideCommand": false
+  "overrideCommand": false,
+
+  //Add the IDs of extensions you want to install when the cotainer is created.
+  "customization":{
+    "vsscode": {
+      "extension": [
+        "GitHub.copilot"
+      ]
+    }
+  }
 }
